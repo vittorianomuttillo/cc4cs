@@ -68,8 +68,8 @@ class InputsGenerator:
 		for var in self.scalars:
 			varType, varName = var.split(" ")
 			# Checks if the current scalar is an index or not
-			scalarType = indextype if self.isIndex(var) else currentype 
-			varRange = chosenParams[scalarType][varName]
+			scalarType = indextype if self.isIndex(var) else currentype
+			varRange = chosenParams[scalarType][varName]	
 
 			scalarList = self.expandRanges(varRange, scalarType)
 			values.append(scalarList)

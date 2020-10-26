@@ -21,8 +21,9 @@ from json import load
 ## Microprocessors
 micros = ['8051', 'Leon3', 'Atmega328p']
 ## Types 
-indexTypes = ["int8_t", "int16_t", "int32_t", "long"]
-#indexTypes = ["uint8_t", "uint16_t", "uint32_t", "unsigned long"]
+indexTypes = ["int8_t"]
+# indexTypes = ["int8_t", "int16_t", "int32_t", "long"]
+# indexTypes = ["uint8_t", "uint16_t", "uint32_t", "unsigned long"]
 targetTypes = ["int8_t", "int16_t", "int32_t", "float"]
 
 
@@ -41,7 +42,7 @@ def replaceString(filename, regexStr, replacementStr):
 			filename (string): the name of the file to be opened
 			regexStr (string): a regular expression
 			replacementStr (string): the string that is inserted in the file 
-"""
+	"""
 	with open(filename, "r") as file:
 		lines = file.readlines()
 
@@ -113,7 +114,7 @@ def callback(algName, chosenMicro, listBoxFlag):
 	global outputDir
 
 	functionName = algName.get(listBoxFlag)
-	absFunctionPath = abspath('benchmark/' + functionName) + '/'
+	absFunctionPath = abspath('benchmarkTransaction/' + functionName) + '/'
 
 	outputDir = askdirectory(initialdir = expanduser("~/Desktop"),
 		title = 'Select folder to save results')
@@ -219,5 +220,5 @@ def callback(algName, chosenMicro, listBoxFlag):
 # Start GUI
 viewInstance = GUI("CC4CS Calculator", "300x370")
 viewInstance.fixSize()
-viewInstance.fillMainWindow(micros, abspath('benchmark'), callback)
+viewInstance.fillMainWindow(micros, abspath('benchmarkTransaction'), callback)
 viewInstance.start()

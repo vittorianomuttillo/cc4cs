@@ -1,0 +1,58 @@
+int8_t uint8_t
+In file included from /home/dews/Scrivania/CC4CS/benchmark/astar/frst.c:2:
+/home/dews/Scrivania/test/includes/values_15/values.h:5:9: error: variably modified ‘a’ at file scope
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+         ^
+/home/dews/Scrivania/test/includes/values_15/values.h:5:9: error: variably modified ‘a’ at file scope
+/home/dews/Scrivania/test/includes/values_15/values.h:5:35: warning: excess elements in array initializer
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+                                   ^
+/home/dews/Scrivania/test/includes/values_15/values.h:5:35: note: (near initialization for ‘a’)
+/home/dews/Scrivania/test/includes/values_15/values.h:5:41: warning: excess elements in array initializer
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+                                         ^~
+/home/dews/Scrivania/test/includes/values_15/values.h:5:41: note: (near initialization for ‘a’)
+/home/dews/Scrivania/test/includes/values_15/values.h:5:45: warning: excess elements in array initializer
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+                                             ^~
+/home/dews/Scrivania/test/includes/values_15/values.h:5:45: note: (near initialization for ‘a’)
+/home/dews/Scrivania/test/includes/values_15/values.h:5:49: warning: excess elements in array initializer
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+                                                 ^
+/home/dews/Scrivania/test/includes/values_15/values.h:5:49: note: (near initialization for ‘a’)
+/home/dews/Scrivania/test/includes/values_15/values.h:5:55: warning: excess elements in array initializer
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+                                                       ^~
+/home/dews/Scrivania/test/includes/values_15/values.h:5:55: note: (near initialization for ‘a’)
+/home/dews/Scrivania/test/includes/values_15/values.h:5:59: warning: excess elements in array initializer
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+                                                           ^~
+/home/dews/Scrivania/test/includes/values_15/values.h:5:59: note: (near initialization for ‘a’)
+/home/dews/Scrivania/test/includes/values_15/values.h:5:2: warning: excess elements in array initializer
+  int8_t a[size][size] = {57, -29, -119, 36, 12, -100, 67, 97};
+  ^~~~~~
+/home/dews/Scrivania/test/includes/values_15/values.h:5:2: note: (near initialization for ‘a’)
+/home/dews/Scrivania/CC4CS/benchmark/astar/frst.c:9:13: error: variably modified ‘frontier’ at file scope
+ TARGET_TYPE frontier[size];
+             ^~~~~~~~
+/home/dews/Scrivania/CC4CS/benchmark/astar/frst.c:12:14: error: variably modified ‘came_from’ at file scope
+ TARGET_INDEX came_from[size];
+              ^~~~~~~~~
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/home/dews/anaconda3/lib/python3.6/tkinter/__init__.py", line 1705, in __call__
+    return self.func(*args)
+  File "/home/dews/Scrivania/CC4CS/src/__init__.py", line 180, in callback
+    cmdMan.executeCommandSet(cmdsProfiling, inputsPath, parsingFunction = parser.run, debugFlag = True)
+  File "/home/dews/Scrivania/CC4CS/src/CommandsManager.py", line 69, in executeCommandSet
+    self.executeCommand(completedCmd)
+  File "/home/dews/Scrivania/CC4CS/src/CommandsManager.py", line 45, in executeCommand
+    call(flags)
+  File "/home/dews/anaconda3/lib/python3.6/subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/dews/anaconda3/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/home/dews/anaconda3/lib/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/dews/Scrivania/test//files/values_15/frst': '/home/dews/Scrivania/test//files/values_15/frst'
+
