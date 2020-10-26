@@ -2,11 +2,19 @@
 #include <8051.h>
 #include <values.h>
 
-typedef float TARGET_TYPE;
-typedef unsigned long TARGET_INDEX;
+typedef int8_t TARGET_TYPE;
+typedef int8_t TARGET_INDEX;
 
 TARGET_TYPE dist[size];
 TARGET_INDEX i, j = 0;
+
+void reset_values()
+{
+	P0 = 0;
+	P1 = 0;
+	P2 = 0;
+	P3 = 0;
+}
 
 void bellmanford(TARGET_INDEX size, TARGET_TYPE a[size][size])
 {

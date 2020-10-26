@@ -2,7 +2,7 @@
 #include <values.h>
 
 typedef float TARGET_TYPE;
-typedef unsigned long TARGET_INDEX;
+typedef long TARGET_INDEX;
 
 
 /* This data structure is used to maintain the disjoint sets */

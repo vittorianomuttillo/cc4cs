@@ -3,7 +3,7 @@
 #include <values.h>
 
 typedef float TARGET_TYPE;
-typedef unsigned long TARGET_INDEX;
+typedef long TARGET_INDEX;
 
 void insertionsort(TARGET_INDEX size, TARGET_TYPE a[size])
 {

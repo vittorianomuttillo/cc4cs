@@ -21,10 +21,10 @@ from json import load
 ## Microprocessors
 micros = ['8051', 'Leon3', 'Atmega328p']
 ## Types 
-indexTypes = ["int8_t"]
-# indexTypes = ["int8_t", "int16_t", "int32_t", "long"]
+# indexTypes = ["int8_t"]
+indexTypes = ["int8_t", "int16_t", "int32_t", "long"]
 # indexTypes = ["uint8_t", "uint16_t", "uint32_t", "unsigned long"]
-targetTypes = ["int8_t", "int16_t", "int32_t", "float"]
+targetTypes = ["int8_t", "int16_t", "int32_t", "float"]  # float
 
 
 
@@ -114,7 +114,7 @@ def callback(algName, chosenMicro, listBoxFlag):
 	global outputDir
 
 	functionName = algName.get(listBoxFlag)
-	absFunctionPath = abspath('benchmarkTransaction/' + functionName) + '/'
+	absFunctionPath = abspath('benchmark/' + functionName) + '/'
 
 	outputDir = askdirectory(initialdir = expanduser("~/Desktop"),
 		title = 'Select folder to save results')
@@ -220,5 +220,5 @@ def callback(algName, chosenMicro, listBoxFlag):
 # Start GUI
 viewInstance = GUI("CC4CS Calculator", "300x370")
 viewInstance.fixSize()
-viewInstance.fillMainWindow(micros, abspath('benchmarkTransaction'), callback)
+viewInstance.fillMainWindow(micros, abspath('benchmark'), callback)
 viewInstance.start()

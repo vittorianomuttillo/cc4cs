@@ -2,7 +2,7 @@
 #include <values.h>
 
 typedef float TARGET_TYPE;
-typedef unsigned long TARGET_INDEX;
+typedef long TARGET_INDEX;
 
 TARGET_TYPE modulo(TARGET_TYPE x, TARGET_TYPE y)
 {

@@ -1,0 +1,339 @@
+{
+	"Atmega328p":
+	{
+		"int8_t":{
+			"row_num_a": "[1,6];1",
+			"column_num_a": "[1,6];1",
+			"a[row_num_a][column_num_a]":"[-127,127]",
+			"row_num_b":"[1,6];1",
+			"column_num_b":"[1,6];1",
+			"b[row_num_b][column_num_b]":"[-127,127]",
+			"d":"[1,6];1",
+			"c":"[1,6];1",
+			"res[row_num_a][column_num_b]":"[-127,127]"
+		},
+
+		"uint8_t":{
+			"row_num_a": "[1,6];1",
+			"column_num_a": "[1,6];1",
+			"a[row_num_a][column_num_a]":"[-127,127]",
+			"row_num_b":"[1,6];1",
+			"column_num_b":"[1,6];1",
+			"b[row_num_b][column_num_b]":"[-127,127]",
+			"d":"[1,6];1",
+			"c":"[1,6];1",
+			"res[row_num_a][column_num_b]":"[-127,127]"
+		},
+
+		"int16_t":{
+			"row_num_a": "[1,4];1",
+			"column_num_a": "[1,4];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,4];1",
+			"column_num_b":"[1,4];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,4];1",
+			"c":"[1,4];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"uint16_t":{
+			"row_num_a": "[1,4];1",
+			"column_num_a": "[1,4];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,4];1",
+			"column_num_b":"[1,4];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,4];1",
+			"c":"[1,4];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"int32_t":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"uint32_t":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"long":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"unsigned long":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"float":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		}
+
+	},
+
+	"8051":
+	{
+		"int8_t":{
+			"row_num_a": "[1,6];1",
+			"column_num_a": "[1,6];1",
+			"a[row_num_a][column_num_a]":"[-127,127]",
+			"row_num_b":"[1,6];1",
+			"column_num_b":"[1,6];1",
+			"b[row_num_b][column_num_b]":"[-127,127]",
+			"d":"[1,6];1",
+			"c":"[1,6];1",
+			"res[row_num_a][column_num_b]":"[-127,127]"
+		},
+
+		"uint8_t":{
+			"row_num_a": "[1,6];1",
+			"column_num_a": "[1,6];1",
+			"a[row_num_a][column_num_a]":"[-127,127]",
+			"row_num_b":"[1,6];1",
+			"column_num_b":"[1,6];1",
+			"b[row_num_b][column_num_b]":"[-127,127]",
+			"d":"[1,6];1",
+			"c":"[1,6];1",
+			"res[row_num_a][column_num_b]":"[-127,127]"
+		},
+
+		"int16_t":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"uint16_t":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"int32_t":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"uint32_t":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"long":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"unsigned long":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"float":{
+			"row_num_a": "[1,2];1",
+			"column_num_a": "[1,2];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,2];1",
+			"column_num_b":"[1,2];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,2];1",
+			"c":"[1,2];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		}
+
+	},
+
+	"Leon3":
+	{
+		"int8_t":{
+			"row_num_a": "[1,127];1",
+			"column_num_a": "[1,127];1",
+			"a[row_num_a][column_num_a]":"[-127,127]",
+			"row_num_b":"[1,127];1",
+			"column_num_b":"[1,127];1",
+			"b[row_num_b][column_num_b]":"[-127,127]",
+			"d":"[1,127];1",
+			"c":"[1,127];1",
+			"res[row_num_a][column_num_b]":"[-127,127]"
+		},
+
+		"uint8_t":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-127,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-127,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-127,127]"
+		},
+
+		"int16_t":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"uint16_t":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"int32_t":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"uint32_t":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"long":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"unsigned long":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		},
+
+		"float":{
+			"row_num_a": "[1,255];1",
+			"column_num_a": "[1,255];1",
+			"a[row_num_a][column_num_a]":"[-128,127]",
+			"row_num_b":"[1,255];1",
+			"column_num_b":"[1,255];1",
+			"b[row_num_b][column_num_b]":"[-128,127]",
+			"d":"[1,255];1",
+			"c":"[1,255];1",
+			"res[row_num_a][column_num_b]":"[-128,127]"
+		}
+
+	}
+}
+
+

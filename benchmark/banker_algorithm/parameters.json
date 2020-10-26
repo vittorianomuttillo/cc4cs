@@ -1,0 +1,221 @@
+{
+	"Atmega328p":
+	{
+		"int8_t":{
+			"n_process": "[1,10];2",
+			"n_resources": "[1,10];2",
+			"available[n_resources]": "[0,127]",
+			"allocated[n_process][n_resources]": "[0,127]",
+			"max[n_process][n_resources]": "[0,127]"
+		},
+
+		"uint8_t":{
+			"n_process": "[1,10];2",
+			"n_resources": "[1,10];2",
+			"available[n_resources]": "[0,255]",
+			"allocated[n_process][n_resources]": "[0,255]",
+			"max[n_process][n_resources]": "[0,255]"
+		},
+	
+		"int16_t":{
+			"n_process": "[1,6];2",
+			"n_resources": "[1,6];2",
+			"available[n_resources]": "[0,32767]",
+			"allocated[n_process][n_resources]": "[0,32767]",
+			"max[n_process][n_resources]": "[0,32767]"
+		},
+
+		"uint16_t":{
+			"n_process": "[1,6];2",
+			"n_resources": "[1,6];2",
+			"available[n_resources]": "[0,65535]",
+			"allocated[n_process][n_resources]": "[0,65535]",
+			"max[n_process][n_resources]": "[0,65535]"
+		},
+
+		"int32_t":{
+			"n_process": "[1,4];2",
+			"n_resources": "[1,4];2",
+			"available[n_resources]": "[0,2147483647]",
+			"allocated[n_process][n_resources]": "[0,2147483647]",
+			"max[n_process][n_resources]": "[0,2147483647]"
+		},
+
+		"uint32_t":{
+			"n_process": "[1,4];2",
+			"n_resources": "[1,4];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+		"long":{
+			"n_process": "[1,4];2",
+			"n_resources": "[1,4];2",
+			"available[n_resources]": "[0,4294967295]", 
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"unsigned long":{
+			"n_process": "[1,4];2",
+			"n_resources": "[1,4];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"float":{
+			"n_process": "[1,4];2",
+			"n_resources": "[1,4];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		}
+	},
+	"8051":
+	{
+		"int8_t":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,127]",
+			"allocated[n_process][n_resources]": "[0,127]",
+			"max[n_process][n_resources]": "[0,127]"
+		},
+
+		"uint8_t":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,255]",
+			"allocated[n_process][n_resources]": "[0,255]",
+			"max[n_process][n_resources]": "[0,255]"
+		},
+
+		"int16_t":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,255]",
+			"allocated[n_process][n_resources]": "[0,255]",
+			"max[n_process][n_resources]": "[0,255]"
+		},
+
+		"uint16_t":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,255]",
+			"allocated[n_process][n_resources]": "[0,255]",
+			"max[n_process][n_resources]": "[0,255]"
+		},
+
+		"int32_t":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"uint32_t":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+		"long":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"unsigned long":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"float":{
+			"n_process": "[1,2];2",
+			"n_resources": "[1,2];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		}
+	},
+	"Leon3":
+	{
+		"int8_t":{
+			"n_process": "[1,127];2",
+			"n_resources": "[1,127];2",
+			"available[n_resources]": "[0,127]",
+			"allocated[n_process][n_resources]": "[0,127]",
+			"max[n_process][n_resources]": "[0,127]"
+		},
+
+		"uint8_t":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,255]",
+			"allocated[n_process][n_resources]": "[0,255]",
+			"max[n_process][n_resources]": "[0,255]"
+		},
+	
+		"int16_t":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,32767]",
+			"allocated[n_process][n_resources]": "[0,32767]",
+			"max[n_process][n_resources]": "[0,32767]"
+		},
+
+		"uint16_t":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,65535]",
+			"allocated[n_process][n_resources]": "[0,65535]",
+			"max[n_process][n_resources]": "[0,65535]"
+		},
+
+		"int32_t":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"uint32_t":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+		"long":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"unsigned long":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		},
+
+		"float":{
+			"n_process": "[1,255];2",
+			"n_resources": "[1,255];2",
+			"available[n_resources]": "[0,4294967295]",
+			"allocated[n_process][n_resources]": "[0,4294967295]",
+			"max[n_process][n_resources]": "[0,4294967295]"
+		}
+	}
+}

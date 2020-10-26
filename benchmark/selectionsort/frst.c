@@ -1,8 +1,8 @@
 #include <stdint.h>
 #include <values.h>
 
-typedef int8_t TARGET_TYPE;
-typedef int8_t TARGET_INDEX;
+typedef float TARGET_TYPE;
+typedef long TARGET_INDEX;
 
 void selectionsort(TARGET_INDEX size, TARGET_TYPE a[size])
 {

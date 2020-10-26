@@ -5,8 +5,8 @@
  * This function exchanges two elements in the array given in input. 
  * The variables index_1 and index_2 indicate the position of elements that will be exchanged.
  */
-typedef int8_t TARGET_TYPE;
-typedef int8_t TARGET_INDEX;
+typedef float TARGET_TYPE;
+typedef long TARGET_INDEX;
 
 void swap(TARGET_INDEX index_1, TARGET_INDEX index_2)
 {
